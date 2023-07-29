@@ -2,9 +2,7 @@
 
 namespace :uc:vendor\:uc:package\Tests;
 
-use PHPUnit\Framework\TestCase;
-
-class ExampleTest extends :uc:vendor\:uc:package\Tests\Support\TestCaseWithLaravel;
+class ExampleTest extends TestbenchTestCase;
 {
     use \Illuminate\Foundation\Testing\LazilyRefreshDatabase;
     use \Illuminate\Foundation\Testing\DatabaseMigrations;

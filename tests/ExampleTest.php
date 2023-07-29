@@ -2,7 +2,7 @@
 
 namespace :uc:vendor\:uc:package\Tests;
 
-class ExampleTest extends TestbenchTestCase;
+class ExampleTest extends TestbenchTestCase
 {
     use \Illuminate\Foundation\Testing\LazilyRefreshDatabase;
     use \Illuminate\Foundation\Testing\DatabaseMigrations;

@@ -18,6 +18,8 @@ abstract class TestbenchTestCase extends Testbench
 
     protected function getPackageProviders($app): array
     {
-        return [':uc:vendor\:uc:package\:uc:packageServiceProvider'];
+        return [
+            \:uc:vendor\:uc:package\:uc:packageServiceProvider::class
+        ];
     }
 }
